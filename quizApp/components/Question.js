@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, Button, Stylesheet } from 'react-native';
+import { Button, Card } from 'react-native-elements';
+
 import { ButtonGroup } from 'react-native-elements';
 
 const Question = ({ route, navigation }) => {

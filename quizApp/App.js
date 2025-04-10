@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Question from './components/Question';
-import Summary from '.components/Summary';
+import Summary from './components/Summary';
 
 const Stack = createNativeStackNavigator();
 
@@ -36,7 +36,7 @@ export default function App() {
                     component={Question}
                     initialParams={{ data: quizData, index: 0, answers: [] }}
                 />
-                <Stack.Screen name="Summary" component={summary} />
+                <Stack.Screen name="Summary" component={Summary} />
             </Stack.Navigator>
         </NavigationContainer>
     );
