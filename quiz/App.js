@@ -8,21 +8,21 @@ const Stack = createNativeStackNavigator();
 
 const quizData =[
      {
-    prompt: "This is the question...",
+    prompt: "Movie Quote from who: 'Perfectly balanced. As all things should be'",
     type: "multiple-choice",
-    choices: ["choice 1", "choice 2", "choice 3", "choice 4"],
+    choices: ["Thanos", "Luke Skywalker", "Chicken Little", "Batman"],
     correct: 0
 },
 {
-    prompt: "This is another question...",
+    prompt: "What is my favorite color?",
     type: "multiple-answer",
-    choices: ["choice 1", "choice 2", "choice 3", "choice 4"],
+    choices: ["green", "blue", "red", "tan"],
     correct: [0,2]
 },
 {
-    prompt: "This is the third question...",
+    prompt: "Am i doing this on my phone?",
     type: "true-false",
-    choices: ["choice 1", "choice 2"],
+    choices: ["false", "true"],
     correct: 1
 }
 ];

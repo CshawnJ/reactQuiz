@@ -6,16 +6,16 @@ const Summary = ({ route }) => {
     let score = 0;
 
     const isCorrect = (correct, selected) => {
-        if (Array.isArray(cprrect)) {
+        if (Array.isArray(correct)) {
             return Array.isArray(selected) &&
             correct.length === selected.length &&
-            correct.every(i => selecged.includes(i));
+            correct.every(i => selected.includes(i));
         }
         return selected[0] ===correct;
     };
 
     return (
-        <View style={StyleSheet.container}>
+        <View style={styles.container}>
             {data.map((q, i) => {
                 const correct = q.correct;
                 const userAnswer = answers[i];
